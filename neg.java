@@ -9,7 +9,8 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int number=-1;
+		Scanner n = new Scanner(System.in);
+		int number=n.nextInt();
         if(number > 0)
         {
             System.out.println("Positive");
