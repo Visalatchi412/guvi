@@ -9,6 +9,6 @@ class CountingDigitsInInteger {
          num = num/10;
          count++;
       }
-      System.out.println("Number of digits in the entered integer are :: "+count);
+      System.out.println(""+count);
    }
 }
