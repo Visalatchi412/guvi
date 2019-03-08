@@ -5,7 +5,7 @@ class Solution {
         String line = br.readLine();
         int N = Integer.parseInt(line);
         for (int i = 0; i < N; i++) {
-            System.out.println("hello");
+            System.out.println("Hello");
         }
     }
 }
