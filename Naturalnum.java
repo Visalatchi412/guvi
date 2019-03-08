@@ -6,7 +6,7 @@ class SumOfNNumbers {
       Scanner sc = new Scanner(System.in);
       int num = sc.nextInt();
 
-      for (int i = 0; i<num; i++){
+      for (int i = 0; i<=num; i++){
          sum = sum +i;
       }
       System.out.println("Sum of numbers : "+sum);
